@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Serial_Communication.exe" version="1.0.0.0" publicKeyToken="fa04056171bc03c3" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Serial_Communication" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Serial_Communication.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 매니페스트 옵션
+          Windows 사용자 계정 컨트롤 수준을 변경하려면 
+          requestedExecutionLevel 노드를 다음 중 하나로 바꾸세요.
+
+          <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+          <requestedExecutionLevel level="requireAdministrator" uiAccess="false" />
+          <requestedExecutionLevel level="highestAvailable" uiAccess="false" />
+
+          이전 버전과의 호환성을 위해 파일 및 레지스트리 가상화를 사용하려면 
+          requestedExecutionLevel 노드를 삭제하세요.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Serial_Communication.exe" size="567264">
+      <assemblyIdentity name="Serial_Communication" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>i0ckQCWIwSbOSsU3CYQ6Pmr8d7iuTrLDqyDqabV9kOE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Serial_Communication.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-B0JVGFC3\kooca" issuerKeyHash="e7052fddb7b5a7d3ed9a0d19283a5847bf5c36e9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>k+YU1DbBMAWOZrMRFD2ZjCfEAfkQ06rbboc0Oi7zA4g=</DigestValue></Reference></SignedInfo><SignatureValue>yjmoP9J0cfy+0K6hvozf2mkP7ekoW73ff4s3UJfsYYSIsVIsprFFdCUANd6TK4BluLZ5jV/xdRgnS+EnGa7e91mfVwHpE+wIlUSHsFA7hRvvyiFs+d3EMF6bwrvKMWHJUKxrKGn+P29unvslAKxXYvUnIgPjaefsn7TIu2IOfTE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>8bRwnlnpXFnCzz+r7+YnZ+AcvLmpCQYXFMB4tKnA1dvbyTvYclNUHMuKoBHjxR1HKXSwwq2QtVCNqBsBz4CBg3HSQuO2UoPH2lcnhL4dX/utpoznvMYf8yR3nZeZlUEZci/WGcKVHmwlvx9pWl4QsgWPu98TJAukl6fMu6mCXw0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8803f32e3a34876edbaad310f901c4278c993d1411b3668e0530c136d414e693" Description="" Url=""><as:assemblyIdentity name="Serial_Communication.exe" version="1.0.0.0" publicKeyToken="fa04056171bc03c3" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-B0JVGFC3\kooca</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>BE5/37MID1sQ1ios/8RpmTefmi7pjDWeqrgwM5SPjLU=</DigestValue></Reference></SignedInfo><SignatureValue>w4bYs6KN2Afm7IlwBVvRYIXtYj05LuHKk5WEMWC517dITfMcdod40pUu4fGyT3XkTJnc6Qiq1Doo32nKT0wbGqm9l6F/tg44+6yS69edFx+Nh/4PhClg0XtHBQrj+WqmTEPtgVJjzFV4S5qHt1IiQ/ebmetF6/qKKGtsgFkZYI8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>8bRwnlnpXFnCzz+r7+YnZ+AcvLmpCQYXFMB4tKnA1dvbyTvYclNUHMuKoBHjxR1HKXSwwq2QtVCNqBsBz4CBg3HSQuO2UoPH2lcnhL4dX/utpoznvMYf8yR3nZeZlUEZci/WGcKVHmwlvx9pWl4QsgWPu98TJAukl6fMu6mCXw0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQSisM4rFZxY5Bxn/Y3D4pPzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBCADAASgBWAEcARgBDADMAXABrAG8AbwBjAGEwHhcNMjAwNjA5MTMwMDMzWhcNMjEwNjA5MTkwMDMzWjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBCADAASgBWAEcARgBDADMAXABrAG8AbwBjAGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAPG0cJ5Z6VxZws8/q+/mJ2fgHLy5qQkGFxTAeLSpwNXb28k72HJTVBzLiqAR48UdRyl0sMKtkLVQjagbAc+AgYNx0kLjtlKDx9pXJ4S+HV/7raaM57zGH/Mkd52XmZVBGXIv1hnClR5sJb8faVpeELIFj7vfEyQLpJenzLupgl8NAgMBAAEwDQYJKoZIhvcNAQELBQADgYEADQcj3ubq4qSFp7w8LSKsIC5xGP1s3uOlOpd9W7qoQfETewbjSJk8Vj5sLhwP3dN43k4PIKJs1aN7zspnvlQzOVEggmAT+sEZuYfalWLrU2MPNvppmCKKpO5RKPnhPx36R1BilPOo9br7Tylu0q2rySAYfjjoBtmTJ/J+UtU6hUQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
