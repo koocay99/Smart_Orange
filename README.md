@@ -1,5 +1,5 @@
 
-![orange](https://user-images.githubusercontent.com/48075491/94409334-fd459600-01b0-11eb-8223-6543067a2aa3.png)
+<img width="200" src="https://user-images.githubusercontent.com/48075491/94409334-fd459600-01b0-11eb-8223-6543067a2aa3.png">
 # Smart_Orange
 다중 사용자를 위한 멀티 핸들러
 스마트 오렌지의 프리셋을 커스터마이징 하기위한 서포팅 프로그램
