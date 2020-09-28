@@ -16,6 +16,10 @@ C# GUNA GUI 환경에서 개발 프로그램을 이용하기 위해서는 스마
 
 개념도
 ------------
+<div>
+<img width="500" src="https://user-images.githubusercontent.com/48075491/94411621-bf963c80-01b3-11eb-9a20-b94ea50a3fdd.png">
+<img width="500" src="https://user-images.githubusercontent.com/48075491/94411622-c02ed300-01b3-11eb-8c26-3cb1c7f8bc11.png">
+</div>
 
 개발
 ------------
